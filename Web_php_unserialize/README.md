@@ -23,7 +23,7 @@
   //result: O:4:"Demo":1:{s:10:"Demofile";s:8:"fl4g.php";} 
   ```
   - Bypass `__wakeup()`:
-  ```
+  ```php
   $ser = str_replace(':1:', ':2:', $ser);
   //O:4:"Demo":2:{s:10:"Demofile";s:8:"fl4g.php";}
   ```
