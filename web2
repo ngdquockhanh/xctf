@@ -1,0 +1,15 @@
+function decode($str){
+    $_o = base64_decode(strrev(str_rot13($str)));
+
+    $_='';
+
+    for($_0=0; $_0 < strlen($_o); $_0++){
+        $_c=substr($_o,$_0,1); 
+        $__=ord($_c)-1;
+        $_c=chr($__);
+        $_=$_.$_c;
+    }
+
+    return strrev($_);
+}
+

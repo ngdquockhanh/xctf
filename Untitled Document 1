@@ -1,0 +1,13 @@
+* Wappalyzer: template flask
+* document: 
+	https://flask.palletsprojects.com/en/2.0.x/
+	https://flask.palletsprojects.com/en/2.0.x/quickstart/
+	
+* Test HTML Escaping:
+		111.200.241.244:57181/<img src=x />
+	=> có sử dụng HTML Escaping
+
+
+
+
+

