@@ -13,7 +13,7 @@
   - `base64_encode()` 
   - bypass filter
   - bypass unserialize
-  -
+  
 1. **Bypass unserialize**
   - Create object serialize:
   ```php
