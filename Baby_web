@@ -1,5 +1,0 @@
-Baby_web:
-- Sử dụng Burp Proxy intercept để theo dõi luồng dữ liệu web
--> nhận thấy khi truy cập địa chỉ trang web -> redirect qua file 1.php
--> sử dụng Burp bắt lấy request đầu tiên và chuyển đến Burp Repeater
--> gửi lại request -> tìm thấy flag trong HTTP header
