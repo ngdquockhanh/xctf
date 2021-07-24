@@ -19,4 +19,4 @@ function decode($str){
     return strrev($_);
 }
 ```
-- **run function: `decode($miwen)` and got flag**
+- **Run function: `decode($miwen)` and got flag**
