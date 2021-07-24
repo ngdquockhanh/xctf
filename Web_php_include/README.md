@@ -6,7 +6,7 @@
   - Accessing various I/O streams
 - `php://input` 
   - is a read-only stream that allows you to read raw data from the request body. php://input is not available with enctype="multipart/form-data"
-- Reference: https://www.php.net/manual/en/wrappers.php.php
+
 - Application filter this method by using strstr(): 
   
   `strstr(string $haystack, string $needle, bool $before_needle = false): string|false`
@@ -25,3 +25,5 @@
   - in request body: `<?php system('cat fl4gisisish3r3.php'); ?>`
 
 ![Screenshot from 2021-07-24 21-57-50](https://user-images.githubusercontent.com/87865134/126872380-91d5eda1-27d6-4c63-944e-da0b4347f66f.png)
+
+- Reference: https://www.php.net/manual/en/wrappers.php.php
