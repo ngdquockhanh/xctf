@@ -11,7 +11,9 @@
 ![Screenshot from 2021-07-25 09-34-14](https://user-images.githubusercontent.com/87865134/126885855-cc5362ce-14f4-4f1b-8585-18436eb77820.png)
 
 ## 1. Check git disclosure
-  - `http://111.200.241.244:64683/.git/`  -> Git Disclosure   <vr/>
+  ```
+  http://111.200.241.244:64683/.git/
+  ```  
   ![Screenshot from 2021-07-25 09-41-39](https://user-images.githubusercontent.com/87865134/126885895-1f46e63d-2207-4ad7-9330-28bab05b7850.png)
 
 ## 2. Download git snapshot to view source code
@@ -46,7 +48,7 @@
 
    
 ## - Decription:
-  - > category: 
+  - > **category**: 
     - Git disclosure
     - Command Injection
 
