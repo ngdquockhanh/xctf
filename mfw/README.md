@@ -17,7 +17,9 @@
 ## 2. Download git snapshot to view source code
   - download: `wget -r http://111.200.241.244:64683/.git/` 
   - after download, check git status:  
-    `git status`  
+    ```
+    git status
+    ```  
     ![Screenshot from 2021-07-25 09-47-07](https://user-images.githubusercontent.com/87865134/126885993-5e0c3d6b-0e58-411c-9aae-a27c09312884.png)
 
   - some files are deleted -> restore file:  
