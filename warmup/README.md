@@ -32,5 +32,5 @@
 ![Screenshot from 2021-07-24 22-24-53](https://user-images.githubusercontent.com/87865134/126873191-d4cfb6a0-52ed-4997-a90b-e59554a3aad0.png)
 
 
-- **Description**: 
-  - > category: directory traversal
+### - Description: 
+> **category**: directory traversal
