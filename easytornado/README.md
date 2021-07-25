@@ -57,7 +57,7 @@
 ![Screenshot from 2021-07-25 20-30-36](https://user-images.githubusercontent.com/87865134/126900865-65f765d2-b0ca-4183-a111-762cf5c0080a.png)
 
 ### - Description:
-  - > category: Server-side Template Injection
+> **category**: Server-side Template Injection
 
 ### - Reference:
   - [Tornado Template syntax](https://www.tornadoweb.org/en/latest/guide/templates.html)
