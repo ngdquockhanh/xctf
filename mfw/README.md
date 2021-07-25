@@ -41,7 +41,9 @@
 
    
 ## - Decription:
-  - > category: Command Injection
+  - > category: 
+    - Git disclosure
+    - Command Injection
 
 ## - Reference:
   - [assert()](https://www.php.net/manual/en/function.assert.php)
