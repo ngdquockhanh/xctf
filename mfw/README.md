@@ -15,7 +15,10 @@
   ![Screenshot from 2021-07-25 09-41-39](https://user-images.githubusercontent.com/87865134/126885895-1f46e63d-2207-4ad7-9330-28bab05b7850.png)
 
 ## 2. Download git snapshot to view source code
-  - download: `wget -r http://111.200.241.244:64683/.git/` 
+  - download:   
+    ```
+    wget -r http://111.200.241.244:64683/.git/
+    ``` 
   - after download, check git status:  
     ```
     git status
