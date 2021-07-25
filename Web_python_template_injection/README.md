@@ -2,9 +2,9 @@
 
 ![Screenshot from 2021-07-25 18-08-42](https://user-images.githubusercontent.com/87865134/126896955-fc1c1441-180b-4daa-9181-fa172b318e12.png)
 
-## - Template: Flask/Jinja
+- Template: Flask/Jinja
 
-## 1. Check ***Template Injection***  
+## 1. Check Template Injection
 
 ![Screenshot from 2021-07-25 18-11-00](https://user-images.githubusercontent.com/87865134/126897023-cb8a1879-4247-4b7f-9448-785877ed0b59.png)
 
