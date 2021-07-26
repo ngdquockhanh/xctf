@@ -33,3 +33,4 @@
  ## - Reference:
   - [Python Built-in Types](https://docs.python.org/3/library/stdtypes.html#class.__bases__)
   - [Python magic method - HackTrick](https://book.hacktricks.xyz/misc/basic-python/magic-methods)
+  - **__globals__**: A reference to the dictionary that holds the function’s global variables — the global namespace of the module in which the function was defined
