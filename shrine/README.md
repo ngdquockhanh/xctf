@@ -54,3 +54,7 @@ if __name__ == '__main__': app.run(debug=True)
 ### - Description
 > **category**: Server-side Template Injection
  
+### - Reference:
+- [Flask Rendering Template](https://flask.palletsprojects.com/en/2.0.x/quickstart/#rendering-templates)
+- [Python Data model](https://docs.python.org/3/reference/datamodel.html)
+
